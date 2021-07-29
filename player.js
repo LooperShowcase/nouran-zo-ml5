@@ -32,8 +32,8 @@ class Player {
       this.size,
       currentObs.x,
       currentObs.y,
-      currentObs.size-50,
-      currentObs.size-50
+      currentObs.size,
+      currentObs.size
     );
 
     return isColliding;
